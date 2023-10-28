@@ -553,7 +553,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -6358603170453836870, guid: e96d281e45ff0c14cb14df5a26ce7ed6, type: 3}
   m_RotationInput:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Rotation
       m_Type: 0
@@ -563,7 +563,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -6848924019557563102, guid: e96d281e45ff0c14cb14df5a26ce7ed6, type: 3}
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
