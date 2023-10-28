@@ -1,0 +1,54 @@
+{
+    "name": "ViveTrackerInput",
+    "maps": [
+        {
+            "name": "ViveTracker",
+            "id": "f1bb1379-90e0-4afe-9648-3eee9323f2b8",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "f0fa4ab7-745a-44dc-9ea3-b35a615be3aa",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "20a74543-fff8-4c52-9f84-95a22c92add2",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4acaf86b-7118-4c62-b487-9f926b199a02",
+                    "path": "<XRInputV1::HTC::OpenVRTrackedDeviceVIVETracker30MV>/deviceposition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b818215-fe75-46a7-9514-cad8c2b808fe",
+                    "path": "<XRInputV1::HTC::OpenVRTrackedDeviceVIVETracker30MV>/devicerotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
